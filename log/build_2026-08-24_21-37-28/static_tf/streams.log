@@ -1,0 +1,31 @@
+[0.638s] Invoking command in '/home/zhany/ROS/test_ws/src/static_tf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zhany/ROS/test_ws/build/static_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/static_tf build --build-base /home/zhany/ROS/test_ws/build/static_tf/build install --record /home/zhany/ROS/test_ws/build/static_tf/install.log --install-scripts $base/lib/static_tf --single-version-externally-managed install_data
+[0.784s] running egg_info
+[0.792s] writing ../../build/static_tf/static_tf.egg-info/PKG-INFO
+[0.793s] writing dependency_links to ../../build/static_tf/static_tf.egg-info/dependency_links.txt
+[0.793s] writing entry points to ../../build/static_tf/static_tf.egg-info/entry_points.txt
+[0.793s] writing requirements to ../../build/static_tf/static_tf.egg-info/requires.txt
+[0.793s] writing top-level names to ../../build/static_tf/static_tf.egg-info/top_level.txt
+[0.814s] reading manifest file '../../build/static_tf/static_tf.egg-info/SOURCES.txt'
+[0.815s] writing manifest file '../../build/static_tf/static_tf.egg-info/SOURCES.txt'
+[0.815s] running build
+[0.815s] running build_py
+[0.815s] copying static_tf/dynamic_tf_broadcast.py -> /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf
+[0.815s] copying static_tf/__init__.py -> /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf
+[0.815s] copying static_tf/static_tf_broadcast.py -> /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf
+[0.816s] copying static_tf/tf_listener.py -> /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf
+[0.816s] copying static_tf/py.typed -> /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf
+[0.816s] running install
+[0.818s] running install_lib
+[0.828s] copying /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf/tf_listener.py -> /home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages/static_tf
+[0.828s] byte-compiling /home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages/static_tf/tf_listener.py to tf_listener.cpython-314.pyc
+[0.828s] running install_data
+[0.829s] copying resource/static_tf -> /home/zhany/ROS/test_ws/install/static_tf/share/ament_index/resource_index/packages
+[0.829s] copying package.xml -> /home/zhany/ROS/test_ws/install/static_tf/share/static_tf
+[0.829s] running install_egg_info
+[0.838s] removing '/home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages/static_tf-0.0.0-py3.14.egg-info' (and everything under it)
+[0.838s] Copying ../../build/static_tf/static_tf.egg-info to /home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages/static_tf-0.0.0-py3.14.egg-info
+[0.839s] running install_scripts
+[0.890s] Installing dynamic_tf_pub script to /home/zhany/ROS/test_ws/install/static_tf/lib/static_tf
+[0.890s] Installing static_tf_pub script to /home/zhany/ROS/test_ws/install/static_tf/lib/static_tf
+[0.890s] writing list of installed files to '/home/zhany/ROS/test_ws/build/static_tf/install.log'
+[0.914s] Invoked command in '/home/zhany/ROS/test_ws/src/static_tf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zhany/ROS/test_ws/build/static_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/static_tf build --build-base /home/zhany/ROS/test_ws/build/static_tf/build install --record /home/zhany/ROS/test_ws/build/static_tf/install.log --install-scripts $base/lib/static_tf --single-version-externally-managed install_data

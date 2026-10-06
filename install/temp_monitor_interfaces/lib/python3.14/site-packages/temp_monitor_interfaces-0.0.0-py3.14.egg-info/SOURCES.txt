@@ -1,0 +1,9 @@
+setup.py
+temp_monitor_interfaces/__init__.py
+temp_monitor_interfaces/py.typed
+temp_monitor_interfaces.egg-info/PKG-INFO
+temp_monitor_interfaces.egg-info/SOURCES.txt
+temp_monitor_interfaces.egg-info/dependency_links.txt
+temp_monitor_interfaces.egg-info/top_level.txt
+temp_monitor_interfaces/srv/__init__.py
+temp_monitor_interfaces/srv/_search.py

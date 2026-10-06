@@ -1,0 +1,32 @@
+[0.423s] Invoking command in '/home/zhany/ROS/test_ws/src/temp_monitor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zhany/ROS/test_ws/build/temp_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhany/ROS/test_ws/install/temp_monitor/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temp_monitor build --build-base /home/zhany/ROS/test_ws/build/temp_monitor/build install --record /home/zhany/ROS/test_ws/build/temp_monitor/install.log --install-scripts $base/lib/temp_monitor --single-version-externally-managed install_data
+[0.588s] running egg_info
+[0.597s] writing ../../build/temp_monitor/temp_monitor.egg-info/PKG-INFO
+[0.597s] writing dependency_links to ../../build/temp_monitor/temp_monitor.egg-info/dependency_links.txt
+[0.597s] writing entry points to ../../build/temp_monitor/temp_monitor.egg-info/entry_points.txt
+[0.598s] writing requirements to ../../build/temp_monitor/temp_monitor.egg-info/requires.txt
+[0.598s] writing top-level names to ../../build/temp_monitor/temp_monitor.egg-info/top_level.txt
+[0.619s] reading manifest file '../../build/temp_monitor/temp_monitor.egg-info/SOURCES.txt'
+[0.620s] writing manifest file '../../build/temp_monitor/temp_monitor.egg-info/SOURCES.txt'
+[0.620s] running build
+[0.620s] running build_py
+[0.620s] copying temp_monitor/__init__.py -> /home/zhany/ROS/test_ws/build/temp_monitor/build/lib/temp_monitor
+[0.620s] copying temp_monitor/temp_show.py -> /home/zhany/ROS/test_ws/build/temp_monitor/build/lib/temp_monitor
+[0.620s] copying temp_monitor/temp_client.py -> /home/zhany/ROS/test_ws/build/temp_monitor/build/lib/temp_monitor
+[0.620s] copying temp_monitor/temp_service.py -> /home/zhany/ROS/test_ws/build/temp_monitor/build/lib/temp_monitor
+[0.621s] copying temp_monitor/py.typed -> /home/zhany/ROS/test_ws/build/temp_monitor/build/lib/temp_monitor
+[0.621s] running install
+[0.623s] running install_lib
+[0.633s] copying /home/zhany/ROS/test_ws/build/temp_monitor/build/lib/temp_monitor/temp_client.py -> /home/zhany/ROS/test_ws/install/temp_monitor/lib/python3.14/site-packages/temp_monitor
+[0.633s] byte-compiling /home/zhany/ROS/test_ws/install/temp_monitor/lib/python3.14/site-packages/temp_monitor/temp_client.py to temp_client.cpython-314.pyc
+[0.634s] running install_data
+[0.634s] copying resource/temp_monitor -> /home/zhany/ROS/test_ws/install/temp_monitor/share/ament_index/resource_index/packages
+[0.634s] copying package.xml -> /home/zhany/ROS/test_ws/install/temp_monitor/share/temp_monitor
+[0.634s] running install_egg_info
+[0.643s] removing '/home/zhany/ROS/test_ws/install/temp_monitor/lib/python3.14/site-packages/temp_monitor-0.0.0-py3.14.egg-info' (and everything under it)
+[0.643s] Copying ../../build/temp_monitor/temp_monitor.egg-info to /home/zhany/ROS/test_ws/install/temp_monitor/lib/python3.14/site-packages/temp_monitor-0.0.0-py3.14.egg-info
+[0.645s] running install_scripts
+[0.695s] Installing temp_client script to /home/zhany/ROS/test_ws/install/temp_monitor/lib/temp_monitor
+[0.695s] Installing temp_service script to /home/zhany/ROS/test_ws/install/temp_monitor/lib/temp_monitor
+[0.695s] Installing temp_show script to /home/zhany/ROS/test_ws/install/temp_monitor/lib/temp_monitor
+[0.695s] writing list of installed files to '/home/zhany/ROS/test_ws/build/temp_monitor/install.log'
+[0.727s] Invoked command in '/home/zhany/ROS/test_ws/src/temp_monitor' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zhany/ROS/test_ws/build/temp_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhany/ROS/test_ws/install/temp_monitor/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temp_monitor build --build-base /home/zhany/ROS/test_ws/build/temp_monitor/build install --record /home/zhany/ROS/test_ws/build/temp_monitor/install.log --install-scripts $base/lib/temp_monitor --single-version-externally-managed install_data

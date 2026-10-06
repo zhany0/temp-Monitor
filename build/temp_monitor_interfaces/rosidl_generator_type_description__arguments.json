@@ -1,0 +1,11 @@
+{
+  "package_name": "temp_monitor_interfaces",
+  "output_dir": "/home/zhany/ROS/test_ws/build/temp_monitor_interfaces/rosidl_generator_type_description/temp_monitor_interfaces",
+  "idl_tuples": [
+    "/home/zhany/ROS/test_ws/build/temp_monitor_interfaces/rosidl_adapter/temp_monitor_interfaces:srv/Search.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/lyrical/share/service_msgs/",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/"
+  ]
+}

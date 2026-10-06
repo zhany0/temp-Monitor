@@ -1,0 +1,26 @@
+[0.378s] Invoking command in '/home/zhany/ROS/test_ws/src/temp_monitor': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zhany/ROS/test_ws/build/temp_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhany/ROS/test_ws/install/temp_monitor/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temp_monitor build --build-base /home/zhany/ROS/test_ws/build/temp_monitor/build install --record /home/zhany/ROS/test_ws/build/temp_monitor/install.log --install-scripts $base/lib/temp_monitor --single-version-externally-managed install_data
+[0.520s] running egg_info
+[0.528s] writing ../../build/temp_monitor/temp_monitor.egg-info/PKG-INFO
+[0.529s] writing dependency_links to ../../build/temp_monitor/temp_monitor.egg-info/dependency_links.txt
+[0.529s] writing entry points to ../../build/temp_monitor/temp_monitor.egg-info/entry_points.txt
+[0.529s] writing requirements to ../../build/temp_monitor/temp_monitor.egg-info/requires.txt
+[0.529s] writing top-level names to ../../build/temp_monitor/temp_monitor.egg-info/top_level.txt
+[0.547s] reading manifest file '../../build/temp_monitor/temp_monitor.egg-info/SOURCES.txt'
+[0.547s] writing manifest file '../../build/temp_monitor/temp_monitor.egg-info/SOURCES.txt'
+[0.547s] running build
+[0.547s] running build_py
+[0.548s] copying temp_monitor/__init__.py -> /home/zhany/ROS/test_ws/build/temp_monitor/build/lib/temp_monitor
+[0.548s] copying temp_monitor/temp_show.py -> /home/zhany/ROS/test_ws/build/temp_monitor/build/lib/temp_monitor
+[0.548s] copying temp_monitor/py.typed -> /home/zhany/ROS/test_ws/build/temp_monitor/build/lib/temp_monitor
+[0.548s] running install
+[0.550s] running install_lib
+[0.559s] running install_data
+[0.559s] copying resource/temp_monitor -> /home/zhany/ROS/test_ws/install/temp_monitor/share/ament_index/resource_index/packages
+[0.559s] copying package.xml -> /home/zhany/ROS/test_ws/install/temp_monitor/share/temp_monitor
+[0.559s] running install_egg_info
+[0.567s] removing '/home/zhany/ROS/test_ws/install/temp_monitor/lib/python3.14/site-packages/temp_monitor-0.0.0-py3.14.egg-info' (and everything under it)
+[0.568s] Copying ../../build/temp_monitor/temp_monitor.egg-info to /home/zhany/ROS/test_ws/install/temp_monitor/lib/python3.14/site-packages/temp_monitor-0.0.0-py3.14.egg-info
+[0.568s] running install_scripts
+[0.617s] Installing temp_show script to /home/zhany/ROS/test_ws/install/temp_monitor/lib/temp_monitor
+[0.617s] writing list of installed files to '/home/zhany/ROS/test_ws/build/temp_monitor/install.log'
+[0.636s] Invoked command in '/home/zhany/ROS/test_ws/src/temp_monitor' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zhany/ROS/test_ws/build/temp_monitor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhany/ROS/test_ws/install/temp_monitor/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/temp_monitor build --build-base /home/zhany/ROS/test_ws/build/temp_monitor/build install --record /home/zhany/ROS/test_ws/build/temp_monitor/install.log --install-scripts $base/lib/temp_monitor --single-version-externally-managed install_data

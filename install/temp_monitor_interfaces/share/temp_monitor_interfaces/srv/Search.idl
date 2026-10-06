@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from temp_monitor_interfaces/srv/Search.srv
+// generated code does not contain a copyright notice
+
+
+module temp_monitor_interfaces {
+  module srv {
+    struct Search_Request {
+      string name;
+    };
+    struct Search_Response {
+      uint32 cur_temp;
+
+      uint32 highest_temp;
+
+      uint32 lowest_temp;
+
+      float average_temp;
+
+      uint32 warning_times;
+    };
+  };
+};

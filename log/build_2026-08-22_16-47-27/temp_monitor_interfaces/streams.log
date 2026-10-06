@@ -1,0 +1,246 @@
+[0.151s] Invoking command in '/home/zhany/ROS/test_ws/build/temp_monitor_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhany/ROS/test_ws/install/temp_monitor:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zhany/ROS/test_ws/src/temp_monitor_interfaces -DCMAKE_INSTALL_PREFIX=/home/zhany/ROS/test_ws/install/temp_monitor_interfaces
+[0.209s] -- The C compiler identification is GNU 15.2.0
+[0.268s] -- The CXX compiler identification is GNU 15.2.0
+[0.276s] -- Detecting C compiler ABI info
+[0.346s] -- Detecting C compiler ABI info - done
+[0.358s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.358s] -- Detecting C compile features
+[0.358s] -- Detecting C compile features - done
+[0.370s] -- Detecting CXX compiler ABI info
+[0.450s] -- Detecting CXX compiler ABI info - done
+[0.462s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.462s] -- Detecting CXX compile features
+[0.462s] -- Detecting CXX compile features - done
+[0.471s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.716s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[0.720s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.748s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.774s] -- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[0.853s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[1.352s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.896s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[1.927s] -- Found Python3: /usr/bin/python3 (found version "3.14.4") found components: Interpreter
+[1.929s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[1.949s] -- Added test 'lint_cmake' to check CMake code style
+[1.949s] -- Added test 'xmllint' to check XML markup files
+[1.952s] -- Configuring done (1.8s)
+[1.979s] -- Generating done (0.0s)
+[1.988s] -- Build files have been written to: /home/zhany/ROS/test_ws/build/temp_monitor_interfaces
+[1.995s] Invoked command in '/home/zhany/ROS/test_ws/build/temp_monitor_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhany/ROS/test_ws/install/temp_monitor:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zhany/ROS/test_ws/src/temp_monitor_interfaces -DCMAKE_INSTALL_PREFIX=/home/zhany/ROS/test_ws/install/temp_monitor_interfaces
+[1.996s] Invoking command in '/home/zhany/ROS/test_ws/build/temp_monitor_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhany/ROS/test_ws/install/temp_monitor:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zhany/ROS/test_ws/build/temp_monitor_interfaces -- -j32 -l32
+[2.031s] [  2%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[2.031s] [  5%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[2.133s] [  5%] Built target temp_monitor_interfaces__rosidl_generator_type_description
+[2.141s] [  8%] [1m[34mGenerating C code for ROS interfaces[0m
+[2.148s] [ 11%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[2.154s] [ 11%] Built target temp_monitor_interfaces__rs
+[2.320s] [ 11%] Built target temp_monitor_interfaces__cpp
+[2.333s] [ 14%] [32mBuilding C object CMakeFiles/temp_monitor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/temp_monitor_interfaces/srv/detail/search__type_support.c.o[0m
+[2.334s] [ 20%] [32mBuilding C object CMakeFiles/temp_monitor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/temp_monitor_interfaces/srv/detail/search__description.c.o[0m
+[2.334s] [ 20%] [32mBuilding C object CMakeFiles/temp_monitor_interfaces__rosidl_generator_c.dir/rosidl_generator_c/temp_monitor_interfaces/srv/detail/search__functions.c.o[0m
+[2.378s] [ 22%] [1m[32mLinking C shared library libtemp_monitor_interfaces__rosidl_generator_c.so[0m
+[2.404s] [ 22%] Built target temp_monitor_interfaces__rosidl_generator_c
+[2.412s] [ 25%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.412s] [ 34%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[2.412s] [ 37%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[2.412s] [ 37%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.412s] [ 37%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[2.412s] [ 40%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[2.549s] [ 45%] [32mBuilding CXX object CMakeFiles/temp_monitor_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/temp_monitor_interfaces/srv/search__type_support.cpp.o[0m
+[2.549s] [ 45%] [32mBuilding CXX object CMakeFiles/temp_monitor_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/temp_monitor_interfaces/srv/search__type_support.cpp.o[0m
+[2.571s] [ 48%] [32mBuilding CXX object CMakeFiles/temp_monitor_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/temp_monitor_interfaces/srv/detail/search__type_support.cpp.o[0m
+[2.572s] [ 51%] [32mBuilding C object CMakeFiles/temp_monitor_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/temp_monitor_interfaces/srv/detail/search__type_support.c.o[0m
+[2.582s] [ 54%] [1m[32mLinking CXX shared library libtemp_monitor_interfaces__rosidl_typesupport_c.so[0m
+[2.597s] [ 57%] [32mBuilding CXX object CMakeFiles/temp_monitor_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/temp_monitor_interfaces/srv/detail/dds_fastrtps/search__type_support.cpp.o[0m
+[2.606s] [ 60%] [1m[32mLinking C shared library libtemp_monitor_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.612s] [ 60%] Built target temp_monitor_interfaces__rosidl_typesupport_c
+[2.620s] [ 62%] [32mBuilding CXX object CMakeFiles/temp_monitor_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/temp_monitor_interfaces/srv/detail/search__type_support_c.cpp.o[0m
+[2.631s] [ 62%] Built target temp_monitor_interfaces__rosidl_typesupport_introspection_c
+[2.913s] [ 65%] [1m[32mLinking CXX shared library libtemp_monitor_interfaces__rosidl_typesupport_cpp.so[0m
+[2.960s] [ 65%] Built target temp_monitor_interfaces__rosidl_typesupport_cpp
+[2.969s] [ 68%] [1m[32mLinking CXX shared library libtemp_monitor_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.021s] [ 71%] [1m[32mLinking CXX shared library libtemp_monitor_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.022s] [ 71%] Built target temp_monitor_interfaces__rosidl_typesupport_introspection_cpp
+[3.070s] [ 71%] Built target temp_monitor_interfaces__rosidl_typesupport_fastrtps_c
+[3.091s] [ 74%] [1m[32mLinking CXX shared library libtemp_monitor_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.137s] [ 74%] Built target temp_monitor_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.152s] [ 74%] Built target temp_monitor_interfaces
+[3.165s] [ 77%] [1m[34mGenerating Python code for ROS interfaces[0m
+[3.402s] [ 77%] Built target temp_monitor_interfaces__py
+[3.416s] [ 80%] [32mBuilding C object CMakeFiles/temp_monitor_interfaces__rosidl_generator_py.dir/rosidl_generator_py/temp_monitor_interfaces/srv/_search_s.c.o[0m
+[3.421s] [ 80%] Built target ament_cmake_python_sync_temp_monitor_interfaces
+[3.513s] [ 82%] [1m[32mLinking C shared library libtemp_monitor_interfaces__rosidl_generator_py.so[0m
+[3.540s] running egg_info
+[3.542s] [ 82%] Built target temp_monitor_interfaces__rosidl_generator_py
+[3.548s] creating temp_monitor_interfaces.egg-info
+[3.548s] writing temp_monitor_interfaces.egg-info/PKG-INFO
+[3.548s] writing dependency_links to temp_monitor_interfaces.egg-info/dependency_links.txt
+[3.548s] writing top-level names to temp_monitor_interfaces.egg-info/top_level.txt
+[3.549s] writing manifest file 'temp_monitor_interfaces.egg-info/SOURCES.txt'
+[3.557s] [ 85%] [32mBuilding C object CMakeFiles/temp_monitor_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/temp_monitor_interfaces/_temp_monitor_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.558s] [ 88%] [32mBuilding C object CMakeFiles/temp_monitor_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/temp_monitor_interfaces/_temp_monitor_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.558s] [ 91%] [32mBuilding C object CMakeFiles/temp_monitor_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/temp_monitor_interfaces/_temp_monitor_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.575s] reading manifest file 'temp_monitor_interfaces.egg-info/SOURCES.txt'
+[3.575s] writing manifest file 'temp_monitor_interfaces.egg-info/SOURCES.txt'
+[3.596s] [ 91%] Built target ament_cmake_python_build_temp_monitor_interfaces_egg
+[3.627s] [ 94%] [1m[32mLinking C shared module rosidl_generator_py/temp_monitor_interfaces/temp_monitor_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[3.628s] [ 97%] [1m[32mLinking C shared module rosidl_generator_py/temp_monitor_interfaces/temp_monitor_interfaces_s__rosidl_typesupport_c.so[0m
+[3.634s] [100%] [1m[32mLinking C shared module rosidl_generator_py/temp_monitor_interfaces/temp_monitor_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.648s] [100%] Built target temp_monitor_interfaces_s__rosidl_typesupport_introspection_c
+[3.653s] [100%] Built target temp_monitor_interfaces_s__rosidl_typesupport_c
+[3.655s] [100%] Built target temp_monitor_interfaces_s__rosidl_typesupport_fastrtps_c
+[3.664s] Invoked command in '/home/zhany/ROS/test_ws/build/temp_monitor_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhany/ROS/test_ws/install/temp_monitor:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zhany/ROS/test_ws/build/temp_monitor_interfaces -- -j32 -l32
+[3.670s] Invoking command in '/home/zhany/ROS/test_ws/build/temp_monitor_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhany/ROS/test_ws/install/temp_monitor:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zhany/ROS/test_ws/build/temp_monitor_interfaces
+[3.675s] -- Install configuration: ""
+[3.675s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/ament_index/resource_index/rosidl_interfaces/temp_monitor_interfaces
+[3.675s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/srv/Search.json
+[3.675s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces
+[3.676s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv
+[3.676s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail
+[3.676s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__functions.h
+[3.676s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__description.c
+[3.676s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__type_support.h
+[3.676s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__functions.c
+[3.676s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__type_support.c
+[3.676s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__struct.h
+[3.676s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/search.h
+[3.676s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/msg
+[3.676s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.676s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/environment/library_path.sh
+[3.677s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/environment/library_path.dsv
+[3.677s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_generator_c.so
+[3.677s] -- Set non-toolchain portion of runtime path of "/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_generator_c.so" to ""
+[3.677s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces
+[3.677s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv
+[3.677s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail
+[3.677s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__rosidl_typesupport_fastrtps_c.h
+[3.677s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/msg
+[3.677s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.677s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.678s] -- Set non-toolchain portion of runtime path of "/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.678s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces
+[3.678s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv
+[3.678s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail
+[3.678s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__rosidl_typesupport_introspection_c.h
+[3.678s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__type_support.c
+[3.678s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/msg
+[3.678s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.678s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_typesupport_introspection_c.so
+[3.678s] -- Set non-toolchain portion of runtime path of "/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.678s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_typesupport_c.so
+[3.679s] -- Set non-toolchain portion of runtime path of "/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_typesupport_c.so" to ""
+[3.679s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces
+[3.679s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv
+[3.679s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail
+[3.679s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__type_support.hpp
+[3.679s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__struct.hpp
+[3.679s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__builder.hpp
+[3.679s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__traits.hpp
+[3.679s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/search.hpp
+[3.679s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/msg
+[3.679s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.679s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces
+[3.679s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv
+[3.680s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail
+[3.680s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__rosidl_typesupport_fastrtps_cpp.hpp
+[3.680s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/dds_fastrtps
+[3.680s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/msg
+[3.680s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.680s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.680s] -- Set non-toolchain portion of runtime path of "/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.680s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces
+[3.680s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv
+[3.680s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail
+[3.680s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__type_support.cpp
+[3.681s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/include/temp_monitor_interfaces/temp_monitor_interfaces/srv/detail/search__rosidl_typesupport_introspection_cpp.hpp
+[3.681s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.681s] -- Set non-toolchain portion of runtime path of "/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.681s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_typesupport_cpp.so
+[3.682s] -- Set non-toolchain portion of runtime path of "/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.682s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/environment/pythonpath.sh
+[3.682s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/environment/pythonpath.dsv
+[3.682s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/temp_monitor_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.682s] -- Set non-toolchain portion of runtime path of "/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/temp_monitor_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.682s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/temp_monitor_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.682s] -- Set non-toolchain portion of runtime path of "/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/temp_monitor_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[3.682s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/temp_monitor_interfaces_s__rosidl_typesupport_c.so
+[3.683s] -- Set non-toolchain portion of runtime path of "/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/temp_monitor_interfaces_s__rosidl_typesupport_c.so" to ""
+[3.683s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_generator_py.so
+[3.683s] -- Set non-toolchain portion of runtime path of "/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/libtemp_monitor_interfaces__rosidl_generator_py.so" to ""
+[3.683s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/ament_index/resource_index/rust_packages/temp_monitor_interfaces
+[3.683s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/rust
+[3.683s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/rust/Cargo.toml
+[3.683s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/rust/build.rs
+[3.684s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/rust/src
+[3.684s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/rust/src/srv.rs
+[3.684s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/rust/src/srv
+[3.684s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/rust/src/srv/rmw.rs
+[3.684s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/rust/src/lib.rs
+[3.684s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/srv/Search.idl
+[3.684s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/srv/Search.srv
+[3.684s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/ament_index/resource_index/package_run_dependencies/temp_monitor_interfaces
+[3.684s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/ament_index/resource_index/parent_prefix_path/temp_monitor_interfaces
+[3.684s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/environment/ament_prefix_path.sh
+[3.684s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/environment/ament_prefix_path.dsv
+[3.684s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/environment/path.sh
+[3.685s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/environment/path.dsv
+[3.685s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/local_setup.bash
+[3.685s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/local_setup.fish
+[3.685s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/local_setup.sh
+[3.685s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/local_setup.zsh
+[3.685s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/local_setup.dsv
+[3.685s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/package.dsv
+[3.685s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/ament_index/resource_index/packages/temp_monitor_interfaces
+[3.685s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/export_temp_monitor_interfaces__rosidl_generator_cExport.cmake
+[3.685s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/export_temp_monitor_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.685s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/export_temp_monitor_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.686s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/export_temp_monitor_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.686s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/temp_monitor_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.686s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/temp_monitor_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.686s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/temp_monitor_interfaces__rosidl_typesupport_cExport.cmake
+[3.686s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/temp_monitor_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.686s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/export_temp_monitor_interfaces__rosidl_generator_cppExport.cmake
+[3.686s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/export_temp_monitor_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.686s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/export_temp_monitor_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.686s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/temp_monitor_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.686s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/temp_monitor_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.686s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/temp_monitor_interfaces__rosidl_typesupport_cppExport.cmake
+[3.687s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/temp_monitor_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.687s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/export_temp_monitor_interfaces__rosidl_generator_pyExport.cmake
+[3.687s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/export_temp_monitor_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.687s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces-0.0.0-py3.14.egg-info
+[3.687s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces-0.0.0-py3.14.egg-info/dependency_links.txt
+[3.687s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces-0.0.0-py3.14.egg-info/PKG-INFO
+[3.687s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces-0.0.0-py3.14.egg-info/top_level.txt
+[3.687s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces-0.0.0-py3.14.egg-info/SOURCES.txt
+[3.688s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces
+[3.688s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/temp_monitor_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.688s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/srv
+[3.688s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/srv/_search.py
+[3.688s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/srv/__init__.py
+[3.688s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/srv/_search_s.c
+[3.688s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/_temp_monitor_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.689s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/__init__.py
+[3.689s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/_temp_monitor_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.689s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/_temp_monitor_interfaces_s.ep.rosidl_typesupport_c.c
+[3.689s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/temp_monitor_interfaces_s__rosidl_typesupport_c.so
+[3.689s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/py.typed
+[3.689s] -- Up-to-date: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/temp_monitor_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.720s] Listing '/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces'...
+[3.720s] Compiling '/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/__init__.py'...
+[3.720s] Listing '/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/srv'...
+[3.720s] Compiling '/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/srv/__init__.py'...
+[3.720s] Compiling '/home/zhany/ROS/test_ws/install/temp_monitor_interfaces/lib/python3.14/site-packages/temp_monitor_interfaces/srv/_search.py'...
+[3.725s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.725s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.725s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.725s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.725s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.725s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.726s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.726s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[3.726s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/temp_monitor_interfacesConfig.cmake
+[3.726s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/cmake/temp_monitor_interfacesConfig-version.cmake
+[3.726s] -- Installing: /home/zhany/ROS/test_ws/install/temp_monitor_interfaces/share/temp_monitor_interfaces/package.xml
+[3.728s] Invoked command in '/home/zhany/ROS/test_ws/build/temp_monitor_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zhany/ROS/test_ws/install/temp_monitor:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zhany/ROS/test_ws/build/temp_monitor_interfaces

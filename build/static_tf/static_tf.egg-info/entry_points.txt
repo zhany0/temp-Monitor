@@ -1,0 +1,4 @@
+[console_scripts]
+dynamic_tf_pub = static_tf.dynamic_tf_broadcast:main
+static_tf_pub = static_tf.static_tf_broadcast:main
+tf_listener = static_tf.tf_listener:main

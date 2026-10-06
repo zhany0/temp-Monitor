@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/zhany/ROS/test_ws/build/temp_monitor_interfaces/cmake_install.cmake",
+		"/home/zhany/ROS/test_ws/build/temp_monitor_interfaces/temp_monitor_interfaces__py/cmake_install.cmake",
+		"/home/zhany/ROS/test_ws/build/temp_monitor_interfaces/temp_monitor_interfaces__rs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

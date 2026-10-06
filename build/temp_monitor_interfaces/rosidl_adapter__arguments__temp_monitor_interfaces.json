@@ -1,0 +1,6 @@
+{
+  "package_name": "temp_monitor_interfaces",
+  "non_idl_tuples": [
+    "/home/zhany/ROS/test_ws/src/temp_monitor_interfaces:srv/Search.srv"
+  ]
+}

@@ -1,0 +1,4 @@
+[console_scripts]
+temp_client = temp_monitor.temp_client:main
+temp_service = temp_monitor.temp_service:main
+temp_show = temp_monitor.temp_show:main

@@ -1,0 +1,5 @@
+source;share/temp_monitor_interfaces/local_setup.bash
+source;share/temp_monitor_interfaces/local_setup.dsv
+source;share/temp_monitor_interfaces/local_setup.fish
+source;share/temp_monitor_interfaces/local_setup.sh
+source;share/temp_monitor_interfaces/local_setup.zsh

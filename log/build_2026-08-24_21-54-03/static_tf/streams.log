@@ -1,0 +1,32 @@
+[0.623s] Invoking command in '/home/zhany/ROS/test_ws/src/static_tf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zhany/ROS/test_ws/build/static_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/static_tf build --build-base /home/zhany/ROS/test_ws/build/static_tf/build install --record /home/zhany/ROS/test_ws/build/static_tf/install.log --install-scripts $base/lib/static_tf --single-version-externally-managed install_data
+[0.780s] running egg_info
+[0.788s] writing ../../build/static_tf/static_tf.egg-info/PKG-INFO
+[0.789s] writing dependency_links to ../../build/static_tf/static_tf.egg-info/dependency_links.txt
+[0.789s] writing entry points to ../../build/static_tf/static_tf.egg-info/entry_points.txt
+[0.789s] writing requirements to ../../build/static_tf/static_tf.egg-info/requires.txt
+[0.789s] writing top-level names to ../../build/static_tf/static_tf.egg-info/top_level.txt
+[0.810s] reading manifest file '../../build/static_tf/static_tf.egg-info/SOURCES.txt'
+[0.810s] writing manifest file '../../build/static_tf/static_tf.egg-info/SOURCES.txt'
+[0.810s] running build
+[0.811s] running build_py
+[0.811s] copying static_tf/dynamic_tf_broadcast.py -> /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf
+[0.811s] copying static_tf/__init__.py -> /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf
+[0.811s] copying static_tf/static_tf_broadcast.py -> /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf
+[0.811s] copying static_tf/tf_listener.py -> /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf
+[0.811s] copying static_tf/py.typed -> /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf
+[0.811s] running install
+[0.814s] running install_lib
+[0.823s] copying /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf/tf_listener.py -> /home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages/static_tf
+[0.824s] byte-compiling /home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages/static_tf/tf_listener.py to tf_listener.cpython-314.pyc
+[0.824s] running install_data
+[0.824s] copying resource/static_tf -> /home/zhany/ROS/test_ws/install/static_tf/share/ament_index/resource_index/packages
+[0.824s] copying package.xml -> /home/zhany/ROS/test_ws/install/static_tf/share/static_tf
+[0.824s] running install_egg_info
+[0.833s] removing '/home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages/static_tf-0.0.0-py3.14.egg-info' (and everything under it)
+[0.834s] Copying ../../build/static_tf/static_tf.egg-info to /home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages/static_tf-0.0.0-py3.14.egg-info
+[0.835s] running install_scripts
+[0.887s] Installing dynamic_tf_pub script to /home/zhany/ROS/test_ws/install/static_tf/lib/static_tf
+[0.887s] Installing static_tf_pub script to /home/zhany/ROS/test_ws/install/static_tf/lib/static_tf
+[0.887s] Installing tf_listener script to /home/zhany/ROS/test_ws/install/static_tf/lib/static_tf
+[0.887s] writing list of installed files to '/home/zhany/ROS/test_ws/build/static_tf/install.log'
+[0.915s] Invoked command in '/home/zhany/ROS/test_ws/src/static_tf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zhany/ROS/test_ws/build/static_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/static_tf build --build-base /home/zhany/ROS/test_ws/build/static_tf/build install --record /home/zhany/ROS/test_ws/build/static_tf/install.log --install-scripts $base/lib/static_tf --single-version-externally-managed install_data

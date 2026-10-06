@@ -1,0 +1,7 @@
+string name
+---
+uint32 cur_temp
+uint32 highest_temp
+uint32 lowest_temp
+float32 average_temp
+uint32 warning_times

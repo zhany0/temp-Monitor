@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/static_tf/static_tf.egg-info/PKG-INFO
+writing dependency_links to ../../build/static_tf/static_tf.egg-info/dependency_links.txt
+writing entry points to ../../build/static_tf/static_tf.egg-info/entry_points.txt
+writing requirements to ../../build/static_tf/static_tf.egg-info/requires.txt
+writing top-level names to ../../build/static_tf/static_tf.egg-info/top_level.txt
+reading manifest file '../../build/static_tf/static_tf.egg-info/SOURCES.txt'
+writing manifest file '../../build/static_tf/static_tf.egg-info/SOURCES.txt'
+running build
+running build_py
+copying static_tf/dynamic_tf_broadcast.py -> /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf
+copying static_tf/__init__.py -> /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf
+copying static_tf/static_tf_broadcast.py -> /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf
+copying static_tf/tf_listener.py -> /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf
+copying static_tf/py.typed -> /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf
+running install
+running install_lib
+copying /home/zhany/ROS/test_ws/build/static_tf/build/lib/static_tf/tf_listener.py -> /home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages/static_tf
+byte-compiling /home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages/static_tf/tf_listener.py to tf_listener.cpython-314.pyc
+running install_data
+copying resource/static_tf -> /home/zhany/ROS/test_ws/install/static_tf/share/ament_index/resource_index/packages
+copying package.xml -> /home/zhany/ROS/test_ws/install/static_tf/share/static_tf
+running install_egg_info
+removing '/home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages/static_tf-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/static_tf/static_tf.egg-info to /home/zhany/ROS/test_ws/install/static_tf/lib/python3.14/site-packages/static_tf-0.0.0-py3.14.egg-info
+running install_scripts
+Installing dynamic_tf_pub script to /home/zhany/ROS/test_ws/install/static_tf/lib/static_tf
+Installing static_tf_pub script to /home/zhany/ROS/test_ws/install/static_tf/lib/static_tf
+Installing tf_listener script to /home/zhany/ROS/test_ws/install/static_tf/lib/static_tf
+writing list of installed files to '/home/zhany/ROS/test_ws/build/static_tf/install.log'

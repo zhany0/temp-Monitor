@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/temp_monitor/temp_monitor.egg-info/PKG-INFO
+writing dependency_links to ../../build/temp_monitor/temp_monitor.egg-info/dependency_links.txt
+writing entry points to ../../build/temp_monitor/temp_monitor.egg-info/entry_points.txt
+writing requirements to ../../build/temp_monitor/temp_monitor.egg-info/requires.txt
+writing top-level names to ../../build/temp_monitor/temp_monitor.egg-info/top_level.txt
+reading manifest file '../../build/temp_monitor/temp_monitor.egg-info/SOURCES.txt'
+writing manifest file '../../build/temp_monitor/temp_monitor.egg-info/SOURCES.txt'
+running build
+running build_py
+copying temp_monitor/__init__.py -> /home/zhany/ROS/test_ws/build/temp_monitor/build/lib/temp_monitor
+copying temp_monitor/temp_show.py -> /home/zhany/ROS/test_ws/build/temp_monitor/build/lib/temp_monitor
+copying temp_monitor/temp_client.py -> /home/zhany/ROS/test_ws/build/temp_monitor/build/lib/temp_monitor
+copying temp_monitor/temp_service.py -> /home/zhany/ROS/test_ws/build/temp_monitor/build/lib/temp_monitor
+copying temp_monitor/py.typed -> /home/zhany/ROS/test_ws/build/temp_monitor/build/lib/temp_monitor
+running install
+running install_lib
+copying /home/zhany/ROS/test_ws/build/temp_monitor/build/lib/temp_monitor/temp_show.py -> /home/zhany/ROS/test_ws/install/temp_monitor/lib/python3.14/site-packages/temp_monitor
+byte-compiling /home/zhany/ROS/test_ws/install/temp_monitor/lib/python3.14/site-packages/temp_monitor/temp_show.py to temp_show.cpython-314.pyc
+running install_data
+copying resource/temp_monitor -> /home/zhany/ROS/test_ws/install/temp_monitor/share/ament_index/resource_index/packages
+copying package.xml -> /home/zhany/ROS/test_ws/install/temp_monitor/share/temp_monitor
+running install_egg_info
+removing '/home/zhany/ROS/test_ws/install/temp_monitor/lib/python3.14/site-packages/temp_monitor-0.0.0-py3.14.egg-info' (and everything under it)
+Copying ../../build/temp_monitor/temp_monitor.egg-info to /home/zhany/ROS/test_ws/install/temp_monitor/lib/python3.14/site-packages/temp_monitor-0.0.0-py3.14.egg-info
+running install_scripts
+Installing temp_client script to /home/zhany/ROS/test_ws/install/temp_monitor/lib/temp_monitor
+Installing temp_service script to /home/zhany/ROS/test_ws/install/temp_monitor/lib/temp_monitor
+Installing temp_show script to /home/zhany/ROS/test_ws/install/temp_monitor/lib/temp_monitor
+writing list of installed files to '/home/zhany/ROS/test_ws/build/temp_monitor/install.log'
